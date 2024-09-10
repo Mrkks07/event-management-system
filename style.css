@@ -1,0 +1,208 @@
+#welcome{
+    
+    
+    background:linear-gradient(45deg,white,rgb(236, 75, 102),white);
+    border:5px solid white;
+    margin-top: 150px;
+    margin-bottom: 350px;
+    margin-left: 550px;
+    margin-right: 550px;
+
+}
+#loginbox{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-right:25px;
+    backdrop-filter:blur(5px);
+    
+}
+#login{
+    margin-left:135px;
+    margin-bottom:10px;
+
+}
+#loginbutton{
+    margin-left:120px;
+    text-decoration: none;
+}
+#adminbutton{
+    margin-left: 10px;
+    height: 10px;
+}
+
+
+
+
+/*#welcome{
+    margin: 0;
+    padding:0;
+    background: linear-gradient(45deg, red, blue, pink);
+    box-sizing: border-box;
+    
+}
+#loginbox{
+    border:5px solid black;
+    margin-top: 150px;
+    margin-bottom: 350px;
+    margin-left: 550px;
+    margin-right: 550px;
+
+
+    margin-top: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 0.5px solid white;
+    border-radius: 15%;
+    margin-bottom: 200px;
+}
+#ask{
+    background:transparent;
+    text-transform: none;
+    text-align: center;  
+    backdrop-filter:blur(3px); 
+    border-radius: 15%;
+}
+#image{
+    margin-top: 20px;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    width: 200px;
+    max-height: 200px;
+    background-color: antiquewhite;
+}
+#text1{
+    color:white;
+}
+#admin{
+    margin:10%;
+    padding:20px;
+    border:2px solid black;
+    border-radius:25%;
+    background-color: antiquewhite;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+#vendor{
+    padding:200px;
+    border:2px solid black;
+    border-radius:25%;
+    margin-bottom: 50px;
+    background-color:antiquewhite;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+#user{
+    margin: 10%;
+    padding:20px;
+    border:2px solid black;
+    border-radius:25%;
+    background-color:antiquewhite;
+    text-decoration:none;
+    font-weight:bold;
+    
+
+}
+*/
+/*for admin login page*/
+#admin{
+    background-color: antiquewhite;
+    border:5px solid black;
+    margin-top: 150px;
+    margin-bottom: 350px;
+    margin-left: 550px;
+    margin-right: 550px;
+  
+}
+#imageadmin{
+
+    width:200px;
+    max-height: 200px;
+    border: 5px solid whitesmoke;
+    background-color: rgb(179, 110, 20);
+    border-radius: 25%;
+    margin-left: 80px;
+    margin-bottom: 5px;/* to increases the length*/
+  
+   
+}
+#hello{
+    margin-left: 100px;
+}
+#inputgroup{
+    margin-left: 30%;
+    margin-bottom:10px;   
+
+}
+#inputgroup2{
+    margin-left: 30%;
+    margin-bottom:10px;   
+}
+#buttongroup{
+    margin-left:150px;
+    justify-content:space-between;
+ 
+
+}
+button{
+    background-color: cornflowerblue;
+}
+
+/*for nab bar of vendor*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:bisque;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+}
